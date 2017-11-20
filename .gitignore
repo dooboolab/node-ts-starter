@@ -1,0 +1,6 @@
+.DS_Store
+node_modules/
+build/
+public/profiles/*
+npm-debug.log
+docs/~$database.pptx

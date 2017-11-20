@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "preserveConstEnums": true,
+    "outDir": "build",
+    "sourceMap": true,
+    "target": "ES2015"
+  },
+  "include": [
+    "server/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

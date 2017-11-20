@@ -1,0 +1,17 @@
+{
+  "verbose": true,
+  "ignore": 
+  [
+    "docs/*", 
+    "node_modules/*", 
+    "public/*",
+    "ssl/*",
+    "web/*",
+    ".gitignore", 
+    "*.js",
+    "*.json",
+    "README.md"
+  ],
+  "execMap": {
+  }
+}
