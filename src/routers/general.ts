@@ -1,7 +1,6 @@
 import { Router } from 'express';
 import statusCode from '../config/statusCode';
 import Result from '../class/Result';
-import Params from '../global/params';
 
 const router = Router();
 
