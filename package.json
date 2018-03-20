@@ -9,13 +9,13 @@
     "lint": "tslint -c tslint.json 'server/**/*.ts'",
     "tsc": "tsc",
     "watch": "tsc -w",
-    "start": "tsc -w & nodemon build/index.js",
-    "start:win": "concurrently --kill-others \"tsc -w\" \"nodemon build/index.js\"",
+    "start": "tsc -w & nodemon dist/index.js",
+    "start:win": "concurrently --kill-others \"tsc -w\" \"nodemon dist/index.js\"",
     "test": "mocha --reporter spec --compilers ts:ts-node/register 'tests/**/*.test.ts'",
     "test:prod": "NODE_ENV=production mocha --reporter spec --compilers ts:ts-node/register 'tests/**/*.test.ts'",
     "test:local": "tsc && node_modules/.bin/mocha dist/test/*.spec.js",
-    "dev": "NODE_ENV=development pm2 start build/index.js",
-    "production": "NODE_ENV=production pm2 start build/index.js"
+    "dev": "NODE_ENV=development pm2 start dist/index.js",
+    "production": "NODE_ENV=production pm2 start dist/index.js"
   },
   "author": "hyochan",
   "license": "UNLICENSED",
